@@ -1,0 +1,794 @@
+INFO 13:54:11:538 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:54:11:557 wdm.WebDriverManager logSeekRepo:1564 Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+INFO 13:54:11:949 online.Downloader downloadAndExtract:131 Downloading https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/128.0.6613.119/mac-arm64/chromedriver-mac-arm64.zip
+INFO 13:54:12:946 online.Downloader extract:192 Extracting driver from compressed file chromedriver-mac-arm64.zip
+INFO 13:54:13:075 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 13:54:20:189 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 14:29:02:719 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:29:02:732 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:36:51:471 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:36:51:485 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 14:36:54:741 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 14:46:11:871 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:46:11:888 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 14:46:15:120 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 14:46:56:256 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:46:56:270 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:47:15:608 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:47:15:619 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:48:10:402 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:48:10:415 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:51:35:137 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:51:35:150 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:12:41:819 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:12:41:830 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:16:39:249 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:16:39:264 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:29:48:937 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:29:48:951 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 17:29:56:331 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 17:31:00:810 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:31:00:824 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 17:31:06:348 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 17:31:35:458 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:31:35:476 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:31:59:898 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:31:59:911 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:46:55:782 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:46:55:796 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:49:12:209 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:49:12:229 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 17:49:18:643 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 17:50:41:774 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:50:41:787 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:52:20:257 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:52:20:281 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:52:59:519 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:52:59:536 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:56:55:212 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:56:55:226 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 17:57:04:173 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 17:57:21:002 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:57:21:015 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:57:55:063 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:57:55:073 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 17:59:27:688 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 17:59:27:702 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:08:46:884 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:08:46:912 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:10:45:007 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:10:45:021 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:13:34:128 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:13:34:139 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:16:35:367 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:16:35:381 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:19:09:584 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:19:09:599 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:21:20:878 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:21:20:891 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:21:56:115 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:21:56:128 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:22:22:841 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:22:22:853 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:23:50:408 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:23:50:421 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:31:08:970 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:31:08:983 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:31:42:010 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:31:42:026 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 18:33:05:636 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 18:33:05:653 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:32:54:493 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:32:54:556 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:44:30:902 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:44:30:916 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:44:53:356 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:44:53:369 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:48:55:315 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:48:55:329 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:49:33:230 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:49:33:244 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 20:54:11:640 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:54:11:653 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 20:54:15:551 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 20:58:28:387 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 20:58:28:401 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:01:51:328 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:01:51:342 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:03:37:705 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:03:37:718 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:05:54:055 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:05:54:070 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:07:32:642 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:07:32:659 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 21:07:37:084 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 21:07:58:569 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:07:58:581 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:08:47:310 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:08:47:325 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 21:08:51:173 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 21:09:13:981 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:09:13:995 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:09:33:523 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:09:33:537 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:09:43:283 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:09:43:295 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 21:10:01:122 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 21:10:01:133 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 21:10:04:544 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 12:39:30:017 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:39:30:029 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 12:41:09:642 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:41:09:654 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 12:55:09:999 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:55:10:013 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 12:57:32:096 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:57:32:113 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 12:57:35:385 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 13:10:09:558 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:10:09:571 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:11:14:398 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:11:14:412 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 13:11:16:675 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 13:43:25:554 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:43:25:566 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:44:33:391 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:44:33:405 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:49:21:700 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:49:21:716 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:51:45:948 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:51:45:961 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:52:10:802 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:52:10:891 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:55:27:260 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:55:27:272 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:55:52:923 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:55:52:935 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:56:24:709 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:56:24:722 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:58:14:568 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:58:14:581 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 13:59:42:724 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 13:59:42:737 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:01:02:509 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:01:02:522 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:01:30:477 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:01:30:490 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:05:09:528 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:05:09:542 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:51:55:010 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:51:55:032 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 14:53:40:166 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 14:53:40:180 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 15:00:51:630 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 15:00:51:645 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 15:01:53:849 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 15:01:53:863 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:00:17:797 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:00:17:808 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 23:00:21:685 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 23:00:31:798 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:00:31:812 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:03:47:917 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:03:47:931 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:17:07:911 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:17:07:924 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:20:00:560 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:20:00:575 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:21:34:508 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:21:34:522 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:26:33:355 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:26:33:369 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 23:26:39:762 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 23:26:50:055 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:26:50:066 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 23:26:56:009 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 23:27:25:704 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:27:25:718 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:36:06:362 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:36:06:376 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:37:46:786 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:37:46:799 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:38:10:225 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:38:10:236 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:38:43:046 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:38:43:059 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:47:50:158 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:47:50:172 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:53:39:288 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:53:39:308 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 23:54:23:518 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 23:54:23:530 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 23:54:30:190 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 00:05:35:844 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 00:05:35:857 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 00:07:55:830 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 00:07:55:843 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 00:12:04:052 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 00:12:04:065 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 00:12:11:771 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 00:12:47:060 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 00:12:47:073 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 00:12:56:283 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 00:13:18:302 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 00:13:18:317 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 00:13:27:349 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 11:59:00:449 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 11:59:00:461 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 12:01:06:756 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:01:06:770 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+WARN 12:01:13:309 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 12:11:06:383 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
+INFO 12:11:06:397 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.119/chromedriver
+INFO 16:56:50:179 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 16:56:50:194 wdm.WebDriverManager logSeekRepo:1564 Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+INFO 16:56:50:589 online.Downloader downloadAndExtract:131 Downloading https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/128.0.6613.137/mac-arm64/chromedriver-mac-arm64.zip
+INFO 16:56:51:524 online.Downloader extract:192 Extracting driver from compressed file chromedriver-mac-arm64.zip
+INFO 16:56:51:656 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 16:57:01:033 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 16:57:01:036 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 16:57:10:085 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 16:57:10:090 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 17:10:26:582 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 17:10:26:595 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 17:10:29:740 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 18:19:27:180 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:19:27:191 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 18:19:34:311 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 18:29:29:974 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:29:29:988 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 18:36:49:180 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:36:49:194 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 18:36:52:922 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 18:55:15:216 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:55:15:230 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 18:55:45:686 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:55:45:700 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 18:56:00:995 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:56:01:007 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 18:56:07:481 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 18:57:36:318 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 18:57:36:333 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:00:36:538 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:00:36:552 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 19:00:45:192 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 19:31:59:580 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:31:59:592 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:35:10:123 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:35:10:136 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 19:35:17:503 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 19:35:33:341 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:35:33:354 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:35:47:815 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:35:47:828 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:35:55:534 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:35:55:537 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:36:31:602 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:36:31:617 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:36:51:716 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:36:51:728 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 19:37:03:670 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 19:38:55:283 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:38:55:298 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:44:29:664 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:44:29:677 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:44:53:170 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:44:53:181 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:48:01:744 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:48:01:761 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:48:24:714 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:48:24:726 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 19:57:33:776 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 19:57:33:789 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:08:10:832 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:08:10:895 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:33:54:909 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:33:54:923 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 13:13:10:306 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 13:13:10:319 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:19:53:222 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:19:53:236 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:19:58:491 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:19:58:497 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:20:01:878 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:20:01:881 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:20:04:985 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:20:04:987 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:20:08:229 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:20:08:232 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:20:11:380 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:20:11:382 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 20:39:50:091 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 20:39:50:106 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 21:17:07:227 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 21:17:07:243 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 21:18:50:748 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 21:18:50:767 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 21:26:13:884 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 21:26:13:895 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 21:27:30:102 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 21:27:30:115 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:23:04:536 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:23:04:549 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:24:55:736 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:24:55:754 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:28:30:451 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:28:30:463 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:32:14:854 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:32:14:869 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:36:24:954 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:36:24:967 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:46:03:123 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:46:03:136 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:47:40:384 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:47:40:397 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:48:39:399 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:48:39:413 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:50:37:934 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:50:37:948 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:51:03:387 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:51:03:398 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 22:52:34:348 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 22:52:34:362 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+WARN 22:52:50:070 handler.WebSocketHandler handleException:142 onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+INFO 23:00:53:267 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:00:53:281 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:06:860 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:06:874 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:15:076 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:15:079 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:27:797 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:27:800 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:38:515 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:38:518 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:47:291 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:47:296 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:02:55:435 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:02:55:438 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:03:06:703 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:03:06:705 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:03:18:188 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:03:18:191 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:06:09:238 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:06:09:251 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:06:35:605 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:06:35:618 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:06:54:383 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:06:54:395 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
+INFO 23:07:16:673 wdm.WebDriverManager resolveDriverVersion:1212 Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+INFO 23:07:16:685 wdm.WebDriverManager exportDriver:1265 Exporting webdriver.chrome.driver as /Users/olickauhan/.cache/selenium/chromedriver/mac-arm64/128.0.6613.137/chromedriver
